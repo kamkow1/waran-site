@@ -46,13 +46,8 @@ export default function Docs() {
                                 'negative_number := -425.435'
                             } theme={dracula} language='js' showLineNumbers={false} />
                         </div>
-                    </Section>
-                    <Section>
-                        <SectionHeader text='creating a new project' size={3} />
-                        to initialize an empty waran project run
-                        <div className={styles.code_bl}>
-                            <CodeBlock text='wrn init' theme={dracula} language='js' showLineNumbers={false} />
-                        </div>
+                        note that a variable MUST have an initial value <br />
+                        - this protects you against encounters with &quot;undefined&quot;
                     </Section>
                 </Section>
             </div>
