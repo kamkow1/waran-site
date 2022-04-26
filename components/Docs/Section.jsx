@@ -1,3 +1,5 @@
+import styles from '../../styles/Section.module.css'
+
 export default function Section({ children }) {
-    return <div>{children}</div>
+    return <div className={styles.section}>{children}</div>
 }

@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-export default function SectionHeader({ text }) {
-    return <h2 className='mb-3'>{text}</h2>
+export default function SectionHeader({ text, size, isCenter }) {
+    return <div className={`mb-3 h${size} ${isCenter ? 'text-center' : ''}`}>{text}</div>
 }
