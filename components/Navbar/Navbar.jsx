@@ -4,7 +4,7 @@ import NavbarList from './NavbarList';
 
 export default function Navbar() {
     return (
-        <div className='navbar navbar-expand-lg navbar-light bg-light'>
+        <div className='navbar navbar-expand-lg navbar-dark bg-dark'>
             <NavbarList>
                 <NavbarElement link='https://github.com/kamkow1/waran' text='github' />
                 <NavbarElement link='/' text='home' />
