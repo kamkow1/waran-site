@@ -8,7 +8,7 @@ export default function Docs() {
         <div>
             <div className={`p-5 ${styles.content}`}>
                 <Section>
-                    <SectionHeader text='getting started' size={1} isCenter={true} />
+                    <SectionHeader text='getting started' size={1} />
                     <Section>
                         <SectionHeader text='installation' size={3} />
                         to install the waran compiler, run
@@ -30,7 +30,7 @@ export default function Docs() {
                     </Section>
                 </Section>
                 <Section>
-                    <SectionHeader text='variables' size={1} isCenter={true} />
+                    <SectionHeader text='variables' size={1} />
                     <Section>
                         <SectionHeader text='create a new variable' size={3} />
                         syntax
